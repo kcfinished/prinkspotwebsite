@@ -1,0 +1,73 @@
+body {
+      margin: 0;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      line-height: 1.3125;
+      color: #8e8f96;
+      background-color: #313136;
+    }
+    
+    .btn {
+      transition: .3s ease-out;
+      border-radius: 0;
+      border-width: 2px;
+      font-family: "Montserrat", sans-serif;
+    }
+
+        
+    .btn-transparent {
+     border: 2px solid white;
+    color: white;
+    padding: 23px 43px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+    }
+
+    .btn-transparent:focus, .btn-transparent.focus, .btn-transparent:hover, .btn-transparent:active, .btn-transparent.active, .open > .btn-transparent.dropdown-toggle {
+    color: #fff;
+    background-color: #7d16ee;
+    border-color: #7d16ee;
+    }
+    
+    .swiper-container {
+      overflow: hidden;
+    }
+    
+    div.swiper-slide {
+      position: relative;
+    }
+    
+    div.swiper-slide > img {
+      width: 100%;
+    }
+    
+    .swiper-content {
+         position: absolute;
+    top: 20%;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+       transition: 2s all ease;
+    }
+
+     .nav-box-content {
+         position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    }
+
+    .nav-box{
+               height: 400px;
+    background: white;
+    border: 0px solid black;
+    text-align: center;
+    line-height: 400px;
+    }
+
+    .navbar{
+      margin-bottom: 0px;
+    }
