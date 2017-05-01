@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "host": "firebase"
+    "host": "firebase",
+    "tasks": "gulp sass:watch"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,10 @@
   "keywords": [],
   "author": "Kasama Chenkaow",
   "license": "ISC",
-  "dependencies": {
-    "firebase-tools": "3.6.1"
+  "devDependencies": {
+    "firebase-tools": "3.6.1",
+    "gulp": "3.9.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-sass": "3.1.0"
   }
 }
