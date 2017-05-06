@@ -1,1 +1,2 @@
-npm run tasks
+npm run webpackRun
+pause

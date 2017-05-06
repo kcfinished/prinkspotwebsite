@@ -3,13 +3,12 @@
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "lib": [ "es2017", "dom" ],
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
-    "outDir": "../public/js",
+    "outDir": "../js",
     "rootDir" : ".",
     "removeComments": true
   }

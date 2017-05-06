@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "The most famous make-up artist in Thailand",
   "main": "js/index.js",
-  "scripts": {
+  "scripts": {   
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
     "host": "firebase",
-    "tasks": "webpack --config mywebpack.config.js",
+    "webpackRun": "set NODE_ENV=prod&&webpack --config ./webpack.config.js",
     "tsCompile": "tsc -p ./ts"
   },
   "repository": {
