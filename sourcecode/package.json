@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
     "host": "firebase",
-    "tasks": "gulp sass:watch"
+    "tasks": "webpack --config mywebpack.config.js",
+    "tsCompile": "tsc -p ./ts"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "firebase-tools": "3.6.1",
-    "gulp": "3.9.1",
-    "gulp-debug": "^3.1.0",
-    "gulp-sass": "3.1.0"
+    "typescript": "2.3.2",
+    "webpack": "2.5.0"
   }
 }
