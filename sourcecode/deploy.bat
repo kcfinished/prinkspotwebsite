@@ -1,1 +1,2 @@
-npm run host deploy
+call npm run host deploy
+pause

@@ -1,1 +1,2 @@
-npm run host login
+call npm run host login
+pause

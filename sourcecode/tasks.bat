@@ -1,2 +1,2 @@
-npm run webpackRun
+call npm run webpackRun
 pause

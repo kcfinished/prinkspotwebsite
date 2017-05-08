@@ -1,1 +1,2 @@
-npm run host serve
+call npm run host serve
+pause

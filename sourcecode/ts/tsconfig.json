@@ -10,6 +10,8 @@
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "../js",
     "rootDir" : ".",
-    "removeComments": true
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true
   }
 }

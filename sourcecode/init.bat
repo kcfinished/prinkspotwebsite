@@ -1,1 +1,2 @@
-npm run host init
+call npm run host init
+pause

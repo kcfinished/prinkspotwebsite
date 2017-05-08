@@ -1,1 +1,2 @@
-npm run tsCompile
+call npm run tsCompile
+pause
